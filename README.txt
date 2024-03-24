@@ -1,0 +1,4 @@
+1. Developed an automation project using Core Java, Selenium WebDriver, and TestNG Framework to test the functionality of the Amazon website.
+2. Utilized Selenium WebDriver to interact with web elements, TestNG for organizing and executing test cases, and Core Java for scripting. Employed parameterization for dynamic testing of URLs and titles.
+3. Improved testing efficiency and accuracy by automating repetitive tasks, ensuring consistent validation of page titles, URLs, and link functionality. Enhanced reliability and scalability of testing procedures.
+4.  Ensured compatibility and stability across different browser versions and resolved issues related to element identification and synchronization, optimizing the automation script for robust execution.
