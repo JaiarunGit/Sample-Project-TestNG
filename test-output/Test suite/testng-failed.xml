@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test case(failed)">
+    <parameter name="baseURL" value="https://www.amazon.in/"/>
+    <parameter name="NextUrltitle" value="Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids"/>
+    <parameter name="Title" value="Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"/>
+    <classes>
+      <class name="org.ng.Sample4">
+        <methods>
+          <include name="testLink" invocation-numbers="0"/>
+          <include name="testTitle" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="testUrl" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.ng.Sample4 -->
+    </classes>
+  </test> <!-- Test case(failed) -->
+</suite> <!-- Failed suite [Test suite] -->

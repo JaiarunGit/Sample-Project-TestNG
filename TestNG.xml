@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test suite">
+
+	<test name="Test case">
+
+		<parameter name = "baseURL" value = "https://www.amazon.in/"></parameter>
+		<parameter name = "Title" value = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"></parameter>
+		<parameter name = "NextUrltitle" value = "Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids"></parameter>
+
+		<classes>
+			<class name = "org.ng.Sample4" />
+		</classes>
+	</test>
+</suite>
